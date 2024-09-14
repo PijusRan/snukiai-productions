@@ -11,19 +11,19 @@ import GamePage from './pages/game';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/snukiai-productions/",
     element: <HomePage/>
   },
   {
-    path: "/video",
+    path: "/snukiai-productions/video",
     element: <VideoPage/>
   },
   {
-    path: "/apie",
+    path: "/snukiai-productions/apie",
     element: <AboutPage/>
   },
   {
-    path: "/404",
+    path: "/snukiai-productions/404",
     element: <GamePage/>
   }
 ]);
