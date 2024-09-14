@@ -14,16 +14,16 @@ export default function homePage(){
         <div className='Main'>
             <div className="Buttons">
 
-                <Link to="/snukiai-productions/apie" className="Link">
+                <Link to="/apie" className="Link">
                     <img src={ButtonAbout}/>
                     <h1>APIE</h1>
                 </Link>
 
-                <Link to="/snukiai-productions/404" className="Link">
+                <Link to="/404" className="Link">
                     <img src={SnukiaiLogo}/>
                 </Link>
 
-                <Link to="/snukiai-productions/video" className="Link">
+                <Link to="/video" className="Link">
                     <img src={ButtonVideo}/>
                     <h1>VIDEKAI</h1>
                 </Link>
