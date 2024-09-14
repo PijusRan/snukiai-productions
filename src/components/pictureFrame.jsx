@@ -3,7 +3,7 @@ import "react"
 export default function PictureProp(props) {
     return(
         <div className="Vid">
-            <a href={`https://youtu.be/${props.id}`}>
+            <a href={`https://youtu.be/${props.id}`} target="_blank">
                 <img src={`https://i.ytimg.com/vi/${props.id}/hq720.jpg`}/>
             </a>
             
