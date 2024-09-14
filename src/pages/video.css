@@ -1,0 +1,48 @@
+@font-face{
+    font-family: "Henri";
+    src: url('../assets/HenriDidot.otf');
+}
+
+.Videos{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    width: 75%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    column-gap: 5%;
+    row-gap: 5%;
+
+    font-family: "Henri";
+}
+
+.Vid{
+    max-height: 35vh;
+    max-width: 35%;
+    aspect-ratio: 1 / 1;
+
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+
+    background-color: aliceblue;
+}
+
+.Vid > a > img{
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Vid > h2{
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2vw;
+    white-space: nowrap;
+}

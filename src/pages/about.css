@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "Henri";
+    src: url('../assets/HenriDidot.otf');
+}
+
+.AboutSection{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    text-align: center;
+}
+
+.AboutSection > p{
+    font-family: "Henri";
+    font-size: 1.5rem;
+    color: aliceblue;
+}
