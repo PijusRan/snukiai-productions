@@ -9,7 +9,7 @@ import ButtonVideo from "../assets/Button_2.png";
 import SnukiaiLogo from "../assets/Snukiai_productions.png";
 
 
-export default function homePage(){
+export default function HomePage(){
     return(
         <div className='Main'>
             <div className="Buttons">

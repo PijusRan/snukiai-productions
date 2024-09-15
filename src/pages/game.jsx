@@ -3,7 +3,7 @@ import "./game.css";
 
 import KiskisPetriskis from "../assets/Running.gif";
 
-export default function homePage(){
+export default function GamePage(){
     return(
         <div className="Game">
             <h1>PIJAU DARYK ZAIDIMA JOBSIKMAT</h1>

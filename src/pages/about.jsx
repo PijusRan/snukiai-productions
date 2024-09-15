@@ -4,7 +4,7 @@ import "./about.css";
 import BG1 from "../assets/Background_L1.png";
 import Logo from "../assets/Snukiai_productions.png"
 
-export default function homePage(){
+export default function AboutPage(){
     return(
         <div>
             <div className="AboutSection">
