@@ -47,11 +47,11 @@ html{
 
     width: 80%;
 }
-.Link > img{
+.Link > div > img{
     position: relative;
     width: 100%;
 }
-.Link > h1{
+.Link > div > h1{
     position: absolute;
     
 
@@ -64,4 +64,9 @@ html{
     color: aliceblue;
     font-family: "MementoGriseo";
     font-size: 4vw;
+}
+
+.SnukiuLogo{
+    position: relative;
+    width: 100%;
 }
