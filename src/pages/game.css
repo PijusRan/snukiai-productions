@@ -7,3 +7,8 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.Game > iframe{
+    max-width: 90vw;
+    max-height: 90vh;
+}
