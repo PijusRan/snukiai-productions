@@ -9,6 +9,9 @@
 }
 
 .Game > iframe{
+    min-width: 75vw;
+    min-height: 75vh;
+
     max-width: 90vw;
     max-height: 90vh;
 }
