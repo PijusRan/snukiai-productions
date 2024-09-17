@@ -25,6 +25,7 @@ export default function HomePage(){
     return(
         <div className='Main'>
             <div className="Buttons">
+                
 
                 <Link to="/apie" className="Link">
                     <motion.div
@@ -39,7 +40,7 @@ export default function HomePage(){
 
                 <Link to="/404" className="Link">
                     <motion.img src={SnukiaiLogo} className="SnukiuLogo" whileHover={{scale:1.5}} onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}/>
-                </Link>
+                </Link> 
 
                 <Link to="/video" className="Link" >
                     <motion.div
