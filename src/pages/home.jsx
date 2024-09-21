@@ -53,8 +53,11 @@ export default function HomePage(){
                     </motion.div>
                     
                 </Link>
-                
             </div>
+
+            <Link to="/privacypolicy" className="ppLink">
+                <p>Privatumo politika</p>
+            </Link>
 
             <img src={BG1} className="BG1"/>
         </div>
