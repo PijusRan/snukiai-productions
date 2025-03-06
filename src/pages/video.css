@@ -17,13 +17,14 @@
 }
 
 .Vid{
-    max-height: 35vh;
-    max-width: 35%;
+    max-height: 20vh;
+    max-width: 20%;
     aspect-ratio: 1 / 1;
 
     padding: 1%;
     margin: 1%;
     text-align: center;
+    overflow: hidden;
 
     background-color: aliceblue;
 }
@@ -35,11 +36,13 @@
 }
 
 .Vid > h2{
+    width: fit-content;
     margin: 0;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 2vw;
-    white-space: nowrap;
+    font-size: 100%;
+    white-space: wrap;
+    margin: auto;
 }
 
 .Videos > img{
