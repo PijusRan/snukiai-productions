@@ -8,20 +8,15 @@ import HomePage  from './pages/home';
 import VideoPage from './pages/video';
 import AboutPage from './pages/about';
 import GamePage from './pages/game';
-import PrivacyPolicy from './pages/privacyPolicy';
-import BG0 from "./assets/Background.mp4";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <video src={BG0} className="BG0" autoPlay muted/>
-
     <HashRouter>
         <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path="/video" element={<VideoPage/>}/>
             <Route path="/apie" element={<AboutPage/>}/>
             <Route path="/404" element={<GamePage/>}/>
-            <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
         </Routes>
     </HashRouter>
   </StrictMode>,
