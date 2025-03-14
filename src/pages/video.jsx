@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./video.css";
 
-import BG1 from "../assets/Background_L1.png";
 import VideoFrame from "../components/pictureFrame";
 import LoadingGif from "../assets/loading.gif";
 
@@ -17,12 +16,8 @@ export default function VideoPage(){
     getVideos()
 
     return(
-        <div>
-            <div className="Videos">
-                { videoList }
-            </div>
-           
-            <img src={BG1} className="BG1"/>
+        <div className="VideoSection">
+            { videoList }
         </div>
     )
 }

@@ -2,13 +2,13 @@ import "react"
 
 export default function PictureProp(props) {
     return(
-        <div className="Vid">
-            <a href={`https://youtu.be/${props.id}`} target="_blank">
-                <img src={`https://i.ytimg.com/vi/${props.id}/hq720.jpg`}/>
-            </a>
-            
-            <h2> {props.title} </h2>
-        </div>
+        <a className="Video" href={`https://youtu.be/${props.id}`} target="_blank" 
+                             style={{backgroundImage: `url("https://i.ytimg.com/vi/${props.id}/hq720.jpg")`}}>
+
+            <div className="Gradient">
+                <h1> {props.title} </h1>
+            </div>
+        </a>
     )
     
     
