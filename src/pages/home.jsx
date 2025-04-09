@@ -5,7 +5,7 @@ import useSound from "use-sound"
 import "./home.css";
 
 //Assets
-import SnukiaiLogo from "../assets/Snukiai_productions.png";
+import SnukiaiLogo from "../assets/Logo.svg";
 import WooshSound from "../assets/sounds/Woosh.mp3";
 import PunchSound from "../assets/sounds/Punch.mp3";
 
@@ -21,7 +21,7 @@ export default function HomePage(){
     return(
         <div className='Main'>
                 <section className="LogoSection">
-                    <motion.img src={SnukiaiLogo} className="LogoImage" whileHover={{scale:1.1}} onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}/>
+                    <motion.img src={SnukiaiLogo} className="LogoImage" whileHover={{scale:1.1}}/>
                 </section>
 
                 <section className="RadauskoSection">
