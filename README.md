@@ -22,5 +22,14 @@
 </a>
 </td>
 
+<td align="center">
+<a href="https://www.instagram.com/and_justas/">
+<img src="https://aina.lt/wp-content/uploads/2023/04/Vileisiukai_Justas.jpg" width="100px;" alt="Pijus Doda Profile Picture"/><br>
+<sub>
+<b>Justas Andžius</b>
+</sub>
+</a>
+</td>
+
 </tr>
 </table>
