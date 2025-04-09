@@ -20,6 +20,8 @@ export default function HomePage(){
 
     return(
         <div className='Main'>
+                
+                
                 <section className="LogoSection">
                     <motion.img src={SnukiaiLogo} className="LogoImage" whileHover={{scale:1.1}}/>
                 </section>

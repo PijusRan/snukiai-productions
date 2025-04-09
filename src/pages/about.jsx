@@ -1,7 +1,6 @@
 import "react";
 import "./about.css";
 
-import BG1 from "../assets/Background_L1.png";
 import Logo from "../assets/Snukiai_productions.png"
 
 export default function AboutPage(){
@@ -13,8 +12,6 @@ export default function AboutPage(){
                 Realiai trūputį ligoti esam...
                 </p>
             </div>
-            
-            <img src={BG1} className="BG1"/>
         </div>
     )
 }

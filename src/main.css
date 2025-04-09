@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('./fonts/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: SpaceMono;
+}
+html, body, #root{
+    background-color: #030003;
+    height: 99%;
+    image-rendering: pixelated;
+}
+
+.backgroundVideo{
+    object-fit: cover;
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 200vw;
+    max-height: 200vh;
+    top: 0;
+    left: 0;
+
+    opacity: 25%;
+    filter: grayscale(100%);
+}
