@@ -24,7 +24,7 @@
 
 <td align="center">
 <a href="https://www.instagram.com/and_justas/">
-<img src="https://aina.lt/wp-content/uploads/2023/04/Vileisiukai_Justas.jpg" width="100px;" alt="Pijus Doda Profile Picture"/><br>
+<img src="https://scontent.fvno4-1.fna.fbcdn.net/v/t39.30808-6/472225183_2602260070124828_2146700138636920712_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=azOHqGtJV6cQ7kNvwENwlmN&_nc_oc=AdnimQGxXA9Sy5GXd1H-IXsPZLM1HVXK92vtvVbAG1TFARouMMkAcu5JJBej7kMPKxM&_nc_zt=23&_nc_ht=scontent.fvno4-1.fna&_nc_gid=1TlFrcyikUZiKFlhnt2Neg&oh=00_AfF2HRiYICvX8KD23KblV9LNd4JuP9GNoZ-pjuavIQ_E5g&oe=67FC9646" width="100px;" alt="Justas Andžius"/><br>
 <sub>
 <b>Justas Andžius</b>
 </sub>
