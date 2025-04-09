@@ -13,11 +13,14 @@ import VideoPage from './pages/video';
 import AboutPage from './pages/about';
 import GamePage from './pages/game';
 
-
+const getRandomNumber = (min, max) => {
+  return Math.random() * (max - min) + min
+}
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <video className='backgroundVideo' autoPlay loop muted poster={loadingGif}>
+    <video className='backgroundVideo' autoPlay loop muted poster={loadingGif}
+     style={{filter: `grayscale(100%) sepia(100%) saturate(400%) hue-rotate(${getRandomNumber(0,720)}deg) `}}>
       <source src={backgroundVideo} type='video/mp4'/>
       Your browser does not support the video tag.
     </video>
