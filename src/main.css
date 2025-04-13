@@ -4,24 +4,29 @@
     font-weight: normal;
     font-style: normal;
 }
+:root{
+    --text-color: #FFFFFF;
+    --background-color: #030003;
+    --alpha: #00000000;
+}
+
+
 *{
     font-family: SpaceMono;
 }
 html, body, #root{
     background-color: #030003;
-    height: 99%;
+    margin: 0;
     image-rendering: pixelated;
 }
 
 .backgroundVideo{
-    object-fit: cover;
     position: fixed;
-    min-width: 100vw;
-    min-height: 100vh;
-    max-width: 200vw;
-    max-height: 200vh;
+    object-fit: cover;
+
     top: 0;
     left: 0;
+    overflow: hidden;
 
     opacity: 25%;
 }

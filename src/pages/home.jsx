@@ -40,7 +40,7 @@ export default function HomePage(){
                             onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}
                         >
                             <img src={AboutImage} className="InfoImage"/>
-                            <p>Apie</p>
+                            <p className="InfoText">Apie</p>
                         </motion.div>
                     </Link>
 
@@ -51,7 +51,7 @@ export default function HomePage(){
                             onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}
                         >
                             <img src={VideoImage} className="InfoImage"/>
-                            <p>Videkai</p>
+                            <p className="InfoText">Videkai</p>
                         </motion.div>
                     </Link>
 
@@ -62,7 +62,7 @@ export default function HomePage(){
                             onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}
                         >
                             <img src={GameImage} className="InfoImage"/>
-                            <p>Kiškis Petriškis</p>
+                            <p className="InfoText">Kiškis Petriškis</p>
                         </motion.div>
                     </Link>
                 </section>

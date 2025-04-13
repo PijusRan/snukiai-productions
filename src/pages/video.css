@@ -1,18 +1,10 @@
 .VideoSection{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-    width: 90%;
-    height: 90%;
-
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
-    row-gap: 8vw;
-    column-gap: 30px;
+    row-gap: 5%;
+    column-gap: 5%;
 }
 
 .Video{
@@ -26,7 +18,7 @@
     transition: 1s ease;
 }
 .Video:hover{
-    transform: scale(150%);
+    transform: scale(120%);
     filter: grayscale(0%);
     z-index: 2;
 }
@@ -34,8 +26,8 @@
 .Gradient{
     position: absolute;
     bottom: -1%;
-    left: 50%; /* Position the h1 in the center horizontally */
-    transform: translateX(-50%); /* Adjust the h1 to be perfectly centered */
+    left: 50%;
+    transform: translateX(-50%);
     margin: 0;
 
     height: 50%;
@@ -59,20 +51,39 @@
     color: aliceblue;
 }
 
+/* -----------------------------------------------------------------------*/
+
 @media (orientation: landscape) {
+    .VideoSection{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 90%;
+        height: 90%;
+    }
+
     .Video{
-        min-width: 300px;
-        min-width: 300px;
+        min-width: 25%;
         max-width: 30%;
-        max-height: 30%;
     }
 }
-  
+
+/* -----------------------------------------------------------------------*/
+
 @media (orientation: portrait) {
+    .VideoSection{
+        margin-top: 75px;
+        row-gap: 50px;
+        margin-bottom: 150px;
+    }
     .Video{
-        min-width: 250px;
-        min-width: 250px;
-        max-width: 20%;
-        max-height: 20%;
+        min-width: 50%;
+        width: 75%;
+        max-width: 90%;
+    }
+    .Video:hover{
+        transform: scale(110%);
     }
 }
