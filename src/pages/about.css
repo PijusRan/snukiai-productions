@@ -1,17 +1,65 @@
-.AboutSection{
+.creatorSection{
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
 
-    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
 
-    max-width: 80%;
+    background-color: #000000bb;
 }
 
-.AboutSection > p{
-    font-family: "LibreBodoni";
-    font-size: 1.5rem;
+.creatorComponent{
     color: aliceblue;
+}
+
+@media (orientation: landscape){
+    .creatorSection{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .creatorComponent{
+        display: grid;
+        grid-template:
+            "info picture"
+            "break break";
+            grid-template-columns: 75% 25%;
+    }
+    .creatorComponent > article{
+        grid-area: info;
+
+        padding: 25px;
+
+        max-width: 90%;
+    }
+    .creatorComponent > img{
+        grid-area: picture;
+        height: 80%;
+        margin: auto;
+    }
+    .creatorComponent > hr{
+        width: 75%;
+        grid-area: break;
+    }
+}
+
+@media (orientation: portrait){
+    .creatorSection{
+        text-align: center;
+    }
+
+    .creatorComponent > article{
+        text-align: left;
+        padding: 25px;
+        max-width: 90%;
+    }
+
+    .creatorComponent > img{
+        min-width: 50%;
+        max-width: 100%;
+    }
+
+    .creatorComponent > hr{
+        width: 80%;
+    }
 }

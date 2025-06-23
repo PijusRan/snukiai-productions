@@ -1,0 +1,30 @@
+[
+    {
+        "ID" : 1,
+        "Name" : "Pijus Ranonis",
+        "Description" : "Rimts kents, darboholiks, viso laiko knisas pri darbų, Lynch'a fans – galvojants, ka pasauls kip „Twin Peaks“ - nieka nesuprant, bet žiūri ir žiūri.",
+        "ImageURL" : "/PR.png",
+        "Movies" : "Greiti ir Pasiutę, Domino, Čiulpikas, KATASTROFA, PORTRETAS, Laikas slenka ne taip, MIRUSIŲ KAČIUKŲ KLUBAS, JUSTELIO PALYDA"
+    },
+    {
+        "ID" : 2,
+        "Name" : "Justas Andžius",
+        "Description" : "Nu ble, aks kaip erelia. Vienintels dalyks, ko jis myl labiau nei sava kamero, ti tradicini šeimo. Mėgst balandžs (arba ne).",
+        "ImageURL" : "/JA.png",
+        "Movies" : "Greiti ir Pasiutę, Domino, Čiulpikas, KATASTROFA, PORTRETAS, Laikas slenka ne taip, MIRUSIŲ KAČIUKŲ KLUBAS, JUSTELIO PALYDA"
+    },
+    {
+        "ID" : 3,
+        "Name" : "Salvijus Gelažis",
+        "Description" : "Pats maestro. Be vaidinima patirties, bet va laimėja už geriausio vaidinimo apdovanojimo. Dar vis vienišas (panelės (arba vaikinai)).",
+        "ImageURL" : "/SG.png",
+        "Movies" : "Greiti ir Pasiutę, Domino, Čiulpikas, PORTRETAS, Laikas slenka ne taip, MIRUSIŲ KAČIUKŲ KLUBAS"
+    },
+    {
+        "ID" : 4,
+        "Name" : "Nojus Jarašūnas",
+        "Description" : "Šių laikų Kamiu ir Pasvale betmens. Jei kvescionuoj sava egzistencijo, eik pas šito bičiuko - tadom da labiau kvescionuo. Filmuos gal vaidint antagonisto, arba liūdno protagonisto.",
+        "ImageURL" : "/NJ.png",
+        "Movies" : "Greiti ir Pasiutę, Domino, Čiulpikas, PORTRETAS, Laikas slenka ne taip"
+    }
+]

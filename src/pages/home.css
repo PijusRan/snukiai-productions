@@ -6,7 +6,7 @@
     align-items: center;
 }
 .LogoSection{
-    grid-area: logo;
+    grid-area: logo; 
 }
 .RadauskoSection{
     grid-area: text;
@@ -21,26 +21,7 @@
     color: var(--text-color);
 }
 
-.LogoImage{
-    animation: wave 5s infinite ease-in-out;
-}
-@keyframes wave {
-    0% {
-        transform: scaleX(1) skewY(0deg);
-    }
-    25% {
-        transform: scaleX(1.05) skewY(5deg);
-    }
-    50% {
-        transform: scaleX(1) skewY(10deg);
-    }
-    75% {
-        transform: scaleX(0.95) skewY(5deg);
-    }
-    100% {
-        transform: scaleX(1) skewY(0deg);
-    }
-}
+
 
 /* -----------------------------------------------------------------------*/
 
@@ -75,7 +56,7 @@
     }
     .LogoImage{
         padding-right: 3rem;
-        max-width: 80%;
+        max-width: 60%;
         max-height: 50%;
     }
 
@@ -141,8 +122,8 @@
         justify-content: center;
     }
     .LogoImage{
-        max-width: 80%;
-        max-height: 80%;
+        max-width: 70%;
+        max-height: 70%;
     }
     .InfoSection{
         display: flex;
@@ -175,9 +156,35 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        margin-bottom: 100px;
     }
     .RadauskoText{
         text-align: left;
         font-size: 1rem;
     }
+}
+
+/* -----------------------------------------------------------------------*/
+
+.LogoImage{
+    animation: waveWarp 5s infinite ease-in-out;
+}
+
+@keyframes waveWarp {
+  0% {
+    transform: perspective(500px) rotateX(5deg) rotateY(5deg) skewX(0deg) skewY(0deg);
+  }
+  25% {
+    transform: perspective(500px) rotateX(10deg) rotateY(-5deg) skewX(3deg) skewY(0deg);
+  }
+  50% {
+    transform: perspective(500px) rotateX(-5deg) rotateY(5deg) skewX(0deg) skewY(3deg);
+  }
+  75% {
+    transform: perspective(500px) rotateX(5deg) rotateY(-5deg) skewX(3deg) skewY(0deg);
+  }
+  100% {
+    transform: perspective(500px) rotateX(5deg) rotateY(5deg) skewX(0deg) skewY(0deg);
+  }
 }

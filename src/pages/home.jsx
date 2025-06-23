@@ -9,9 +9,9 @@ import SnukiaiLogo from "../assets/Logo.svg";
 import WooshSound from "../assets/sounds/Woosh.mp3";
 import PunchSound from "../assets/sounds/Punch.mp3";
 
-import VideoImage from "../assets/VideoButton.png";
-import AboutImage from "../assets/AboutButton.png";
-import GameImage from "../assets/GameButton.png";
+import VideoImage from "../assets/buttons/VideoButton.png";
+import AboutImage from "../assets/buttons/AboutButton.png";
+import GameImage from "../assets/buttons/GameButton.png";
 
 
 export default function HomePage(){
@@ -35,7 +35,7 @@ export default function HomePage(){
                 <section className="InfoSection">
                     <Link to="/apie" className="InfoLink">
                         <motion.div
-                            whileHover={{scale:1.2}}
+                            whileHover={{scale:1.1}}
                             whileTap={{scale:0.8}}
                             onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}
                         >
@@ -46,7 +46,7 @@ export default function HomePage(){
 
                     <Link to="/video" className="InfoLink">
                         <motion.div
-                            whileHover={{scale:1.2}}
+                            whileHover={{scale:1.1}}
                             whileTap={{scale:0.8}}
                             onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}
                         >
@@ -57,7 +57,7 @@ export default function HomePage(){
 
                     <Link to="/404" className="InfoLink">
                         <motion.div
-                            whileHover={{scale:1.2}}
+                            whileHover={{scale:1.1}}
                             whileTap={{scale:0.8}}
                             onMouseEnter={playWoosh} onMouseLeave={stopWoosh} onClick={playPunch}
                         >

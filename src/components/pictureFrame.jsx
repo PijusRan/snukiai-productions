@@ -1,14 +1,21 @@
 import "react"
+import {motion} from "framer-motion"
 
 export default function PictureProp(props) {
+    const animateHover ={
+        transform: 'scale(105%) perspective(500px) rotateY(5deg)'
+    };
+
     return(
-        <a className="Video" href={`https://youtu.be/${props.id}`} target="_blank" 
-                             style={{backgroundImage: `url("https://i.ytimg.com/vi/${props.id}/hq720.jpg")`}}>
+        <motion.a className="Video" href={`https://youtu.be/${props.id}`} target="_blank" 
+         style={{backgroundImage: `url("https://i.ytimg.com/vi/${props.id}/hq720.jpg")`}}
+         initial={{transform: 'scale(100%) perspective(500px) rotateY(0deg)'}}
+         whileHover={animateHover}>
 
             <div className="Gradient">
                 <h1> {props.title} </h1>
             </div>
-        </a>
+        </motion.a>
     )
     
     
