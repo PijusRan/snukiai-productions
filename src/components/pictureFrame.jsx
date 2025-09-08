@@ -8,9 +8,7 @@ export default function PictureProp(props) {
 
     return(
         <motion.a className="Video" href={`https://youtu.be/${props.id}`} target="_blank" 
-         style={{backgroundImage: `url("https://i.ytimg.com/vi/${props.id}/hq720.jpg")`}}
-         initial={{transform: 'scale(100%) perspective(500px) rotateY(0deg)'}}
-         whileHover={animateHover}>
+         style={{backgroundImage: `url("https://i.ytimg.com/vi/${props.id}/hq720.jpg")`}}>
 
             <div className="Gradient">
                 <h1> {props.title} </h1>
